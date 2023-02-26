@@ -1,0 +1,31 @@
+{
+  "name": "clima-website_2",
+  "version": "1.0.0",
+  "description": "This project develops the website for the Clima. It attempts to fix some of the webpack errors encountered in the initial version.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owen-addison/clima-website_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owen-addison/clima-website_2/issues"
+  },
+  "homepage": "https://github.com/owen-addison/clima-website_2#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "canvas-sketch-util": "^1.10.0"
+  }
+}

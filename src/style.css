@@ -1,0 +1,55 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  z-index: 1;
+  margin: 0;
+}
+
+#myCanvas {
+  position: absolute;
+}
+
+.content {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background: #FCFCFB;
+}
+
+.header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100px;
+  background: #CDD0BD;
+
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+
+  /* border: 1px solid black; */
+}
+
+.logo-container {
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  align-content: center;
+  gap: 30px;
+  height: fit-content;
+
+  /* border: 1px solid blue; */
+}
