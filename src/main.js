@@ -39,3 +39,19 @@ aboutButton.addEventListener("click", (e) => {
 contactButton.addEventListener("click", (e) => {
   console.log("contact", e.target);
 });
+
+/*
+_________________________________________________________________________
+TO DO: IMPROVEMENTS OR BUGS TO FIX
+_________________________________________________________________________
+*/
+/*
+  - Allow canvas to resize properly with window
+    - Possibly stretch the existing sketch as opposed to re-rendering each time
+  - Build modules for loading up about and contact pages
+  - Convert existing html to a module for loading the home page
+  - Add functionality for switching between pages with header buttons
+  - Use promises to load page elements asynchronously (canvas first)
+  - Look into more efficient ways to render background
+    - Possibly render a really large sketch using canvas-sketch as an png and load that instead
+*/
