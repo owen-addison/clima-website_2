@@ -21,3 +21,21 @@ for (let i = 0; i < c.width; i++) {
     ctx.fillRect(i, j, 1, 1);
   }
 }
+
+// Get header button elements
+const homeButton = document.getElementById("home-button");
+const aboutButton = document.getElementById("about-button");
+const contactButton = document.getElementById("contact-button");
+
+// Add event listeners
+homeButton.addEventListener("click", (e) => {
+  console.log("home", e.target);
+});
+
+aboutButton.addEventListener("click", (e) => {
+  console.log("about", e.target);
+});
+
+contactButton.addEventListener("click", (e) => {
+  console.log("contact", e.target);
+});
